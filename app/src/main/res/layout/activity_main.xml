@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10sp"
+        android:background="#47308C">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_199sdp"
+            android:layout_gravity="center_horizontal">
+
+            <!-- First container -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_260sdp"
+                android:layout_margin="5sp"
+                android:layout_weight="0.7"
+                android:background="@drawable/bluecolorleftsidecbed"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingTop="30sp">
+
+                <!-- Text at the top of the container -->
+
+
+                <!-- Create a gap between text and buttons -->
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+
+                <!-- Buttons for the first container -->
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <ImageButton
+                    android:id="@+id/buttonPlus1"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:background="@drawable/triangle_button"
+                    android:backgroundTint="#F37B7D"
+                    android:text="" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <ImageButton
+                    android:id="@+id/buttonReset1"
+                    android:layout_width="@dimen/_45sdp"
+                    android:layout_height="@dimen/_45sdp"
+                    android:background="@drawable/rounded_shape"
+                    android:fontFamily="@font/opensanssemi"
+                    android:text="Reset"
+                    android:textColor="@android:color/white" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <ImageButton
+                    android:id="@+id/buttonMinus1"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:background="@drawable/triangle_button1" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:fontFamily="@font/opensanssemi"
+                    android:gravity="center"
+                    android:text="HEAD"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <!-- Second container -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_260sdp"
+                android:layout_margin="5sp"
+                android:layout_weight="0.7"
+                android:background="@drawable/pinkcolorrightsidecbed"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingTop="30sp">
+
+
+                <!-- Create a gap between text and buttons -->
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+
+                <!-- Buttons for the second container -->
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <ImageButton
+                    android:id="@+id/buttonPlus2"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:background="@drawable/triangle_button" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <ImageButton
+                    android:id="@+id/buttonReset2"
+                    android:layout_width="@dimen/_45sdp"
+                    android:layout_height="@dimen/_45sdp"
+                    android:background="@drawable/rounded_shape"
+                    android:fontFamily="@font/opensanssemi"
+                    android:text="Reset"
+                    android:textColor="@android:color/white" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <ImageButton
+                    android:id="@+id/buttonMinus2"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:background="@drawable/triangle_button1" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:fontFamily="@font/opensanssemi"
+                    android:gravity="center"
+                    android:text="LEG"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <!-- Containers for the two side-by-side containers -->
+        <View
+            android:id="@+id/wakefitlogosmartbed"
+            android:layout_width="@dimen/_170sdp"
+            android:layout_height="@dimen/_58sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="@dimen/_60sdp"
+            android:layout_marginTop="@dimen/_38sdp"
+            android:layout_marginEnd="@dimen/_60sdp"
+            android:background="@drawable/wakefitlogo" />
+        <View
+            android:id="@+id/smartbedlogotext"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/_149sdp"
+            android:layout_marginTop="@dimen/_105sdp"
+            android:background="@drawable/smartbedimagelogo" />
+
+        <View
+            android:id="@+id/smartbedimage"
+            android:layout_width="312dp"
+            android:layout_height="220dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/_17sdp"
+            android:layout_marginTop="@dimen/_115sdp"
+            android:background="@drawable/smartbedimage" />
+
+        <ImageButton
+            android:id="@+id/vibratorbuttononoff"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:background="@drawable/vibratormode"
+            android:layout_marginTop="@dimen/_320sdp"
+            android:layout_marginLeft="@dimen/_120sdp"
+            android:onClick="toggleVibratorMode"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_500sdp" >
+
+            <TextView
+                android:id="@+id/modes"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_alignParentLeft="true"
+                android:text="Modes"
+                android:fontFamily="@font/opensanssemi"
+                android:textColor="#F7D2C9"
+                android:textSize="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal|top"
+                android:layout_marginBottom="@dimen/_10sdp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_530sdp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/tvmode"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/tvmode"
+                />
+
+            <Space
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="match_parent"
+                />
+
+            <ImageButton
+                android:id="@+id/reclinermode"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+
+                android:background="@drawable/antisnore"
+                />
+            <Space
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="match_parent"
+                />
+
+            <ImageButton
+                android:id="@+id/zerogravity"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/zerogravitymode"
+                />
+            <Space
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="match_parent"
+                />
+
+            <ImageButton
+                android:id="@+id/normalmode"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/normalmode"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_580sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="TV Mode"
+                android:fontFamily="@font/opensanssemi"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_13sdp" />
+            <Space
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="match_parent"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Anti Snore"
+                android:fontFamily="@font/opensanssemi"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_13sdp" />
+            <Space
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="match_parent"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0 Gravity"
+                android:fontFamily="@font/opensanssemi"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_13sdp" />
+            <Space
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="match_parent"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Normal"
+                android:fontFamily="@font/opensanssemi"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_13sdp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
